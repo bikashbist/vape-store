@@ -1,0 +1,257 @@
+.header{
+    background-color: #030507;
+    padding: 1rem 0;
+}
+p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;;
+}
+.promo{
+        background-color: #25aae1;
+    color: #fff;
+    padding: 5px 0px;
+   
+    p{
+           display: block;
+    padding: 0 54px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    
+    }
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Header */
+.header {
+    background-color: #030507;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.header img {
+    height: 100px;
+}
+
+.cart-icon {
+    cursor: pointer;
+    color: #25aae1;
+}
+
+/* Promo Bar */
+.promo {
+    background-color: #25aae1;
+    color: #fff;
+    padding: 5px 0px;
+}
+
+.promo p {
+    display: block;
+    padding: 0 54px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+/* Banner Carousel */
+.banner-container {
+    background-color: #030507;
+    padding: 20px 0;
+}
+
+.owl-carousel .item img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.owl-prev, .owl-next {
+    background-color: rgba(37, 170, 225, 0.7) !important;
+    color: white !important;
+    font-size: 24px !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px !important;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.owl-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #bbb !important;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+}
+.owl-theme .owl-dots .owl-dot span{
+    display: none !important;
+}
+
+.owl-dot.active {
+    background-color: #25aae1 !important;
+}
+
+/* Filter Section */
+.filter-section {
+    background-color: #1e1e1e;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.filter-btn {
+    color: #25aae1;
+    border-color: #25aae1;
+    margin: 0 5px;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: #25aae1;
+    color: white;
+}
+
+/* Products Grid */
+.products-section {
+    background-color: #030507;
+}
+
+.product-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #333;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(37, 170, 225, 0.2);
+}
+
+.product-image {
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #030507;
+}
+
+.product-image img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #25aae1, #30dd8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #25aae1;
+    margin-bottom: 15px;
+}
+
+.product-category {
+    display: inline-block;
+    background-color: #333;
+    color: #bbb;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    width: 100%;
+    background-color: #25aae1;
+    color: white;
+    border: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #1e8fc7;
+}
+
+/* Footer */
+.footer {
+    background-color: #030507;
+    color: #bbb;
+    border-top: 1px solid #333;
+}
+
+.footer h5 {
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #25aae1;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #25aae1, #30dd8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .promo p {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+    
+    .filter-btn {
+        margin-bottom: 5px;
+    }
+    
+    .product-card {
+        margin-bottom: 15px;
+    }
+}
